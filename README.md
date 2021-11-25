@@ -37,6 +37,7 @@ Java 学习笔记。
 - [java-learning](https://github.com/brianway/java-learning): Java 学习笔记，含博客讲解和源码实例，包括 Java SE 和 Java Web。
 - [guava-study](https://github.com/tiantiangao/guava-study): Guava 是 Google 的知名开源类库，包含了很多高质量的 API，可以使你的 Java 代码更加优雅，更加简洁。
 - [LearningJDK](https://github.com/kangjianwei/LearningJDK): JDK 源码阅读笔记
+- [30-seconds-of-java8](https://github.com/biezhi/30-seconds-of-java8): Java 8 小代码片段
 
 ### Java 源码教程
 
