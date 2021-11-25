@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zhangxianbing.learn.java</groupId>
+    <artifactId>learn-java</artifactId>
+    <packaging>pom</packaging>
+    <name>Java Learning</name>
+    <version>${revision}</version>
+
+    <properties>
+        <revision>0.0.1-SNAPSHOT</revision>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <junit.version>4.11</junit.version>
+    </properties>
+
+    <description>
+        Java学习笔记。
+    </description>
+    <url>https://github.com/zhangxianbing/learn-java</url>
+
+    <developers>
+        <developer>
+            <id>zhangxianbing</id>
+            <name>Xianbing Zhang</name>
+            <email>zhangxianbing09@163.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git@github.com:zhangxianbing/learn-java.git</connection>
+        <developerConnection>scm:git@github.com:zhangxianbing/learn-java.git</developerConnection>
+        <url>git@github.com:zhangxianbing/learn-java.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <modules>
+        <module>01-java-base</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
