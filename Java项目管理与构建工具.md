@@ -12,6 +12,8 @@ Maven 是一个 Java 项目管理和构建工具，它可以定义项目结构�
 
 注：只有以`-SNAPSHOT`结尾的版本号会被 Maven 视为开发版本，开发版本每次都会重复下载，这种 SNAPSHOT 版本只能用于内部私有的 Maven repo，公开发布的版本不允许出现 SNAPSHOT。
 
+Maven 的配置文件是.pom 文件。POM 是项目对象模型(Project Object Model)的简称，它是 Maven 项目中的文件，使用 XML 表示。其中包含项目的基本信息，构建过程，环境信息，依赖信息等。
+
 #### 依赖关系
 
 Maven 定义了几种依赖关系，分别是`compile`、`test`、`runtime`和`provided`：
@@ -31,7 +33,13 @@ Maven 定义了几种依赖关系，分别是`compile`、`test`、`runtime`和`p
 
 #### Lifecycle 和 Phase
 
-Maven 的生命周期（lifecycle）由一系列阶段（phase）构成，以内置的生命周期`default`为例，它包含以下 phase：
+Maven 有三个生命周期，每个生命周期又分为多个阶段:
+
+1. Clean:包含 3 个阶段，与清理上次构建生成的文件相关
+2. Default：Maven 的核心生命周期，包含多个阶段如预处理、编译、测试、打包、安装到本地仓库、发布到远程仓库等。
+3. Site: 包含 4 个阶段，与生成项目报告，站点，发布站点相关。
+
+以内置的生命周期`default`为例，它包含以下 phase：
 
 - validate
 - initialize
@@ -423,3 +431,9 @@ multiple-project
 - [Maven 基础](https://www.liaoxuefeng.com/wiki/1252599548343744/1255945359327200)
 
 ## Gradle
+
+## Maven vs Gradle
+
+<https://zhuanlan.zhihu.com/p/21394120>
+
+<https://gradle.org/maven-vs-gradle/>
