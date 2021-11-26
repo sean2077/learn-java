@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>learn-java</artifactId>
         <groupId>com.zhangxianbing.learn.java</groupId>
+        <artifactId>learn-java</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>java-algorithm</artifactId>
+    <artifactId>java-container</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

@@ -66,3 +66,5 @@ HashMap是根据key的hash值决策key放入到哪个桶（bucket）中，通过
 - &运算速度快，至少比%取模运算块
 
 - (n - 1) & hash，当n为2次幂时，会满足一个公式：(n - 1) & hash = hash % n
+
+![image-20211126151441769](https://gitee.com/zhangxianbing/assets/raw/master/typora/2021-11-26-15-14-49_image-20211126151441769.png)

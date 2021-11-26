@@ -10,7 +10,7 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>java-algorithm</artifactId>
+    <artifactId>java-multithread</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
