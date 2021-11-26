@@ -54,6 +54,7 @@
         <module>java-multithread</module>
         <module>java-jvm</module>
         <module>java-test</module>
+        <module>java-design-patterns</module>
     </modules>
 
     <dependencyManagement>

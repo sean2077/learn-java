@@ -31,7 +31,7 @@ Maven 定义了几种依赖关系，分别是`compile`、`test`、`runtime`和`p
 
 #### 解决依赖冲突
 
-http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html
+<http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html>
 
 ### 构建流程
 
