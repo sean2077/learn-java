@@ -29,6 +29,10 @@ Maven 定义了几种依赖关系，分别是`compile`、`test`、`runtime`和`p
 
 如果我们要引用一个第三方组件，比如`okhttp`，如何确切地获得它的`groupId`、`artifactId`和`version`？方法是通过[search.maven.org](https://search.maven.org/)搜索关键字。
 
+#### 解决依赖冲突
+
+http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html
+
 ### 构建流程
 
 #### Lifecycle 和 Phase
