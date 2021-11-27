@@ -12,7 +12,7 @@ public class CovariantArrays {
     public static void main(String[] args) {
         Fruit[] fruits = new Apple[10];
         fruits[0] = new Apple();
-        fruits[1] = new Jonathan();
+        fruits[1] = new RedApple();
 
         // 编译器允许添加 Fruit，但运行时会抛出 ArrayStoreException
         // 为了确保类型安全，Java数组必须明确知道内部元素的类型，而且会”记住“这个类型，每次往数组里插入新元素都会进行类型检查，不匹配会抛出java.lang.ArrayStoreException。
@@ -37,7 +37,7 @@ class Fruit {
 class Apple extends Fruit {
 }
 
-class Jonathan extends Apple {
+class RedApple extends Apple {
 }
 
 class Orange extends Fruit {
