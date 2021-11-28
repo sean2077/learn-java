@@ -6,7 +6,7 @@ Java 学习笔记。
 
 ### 综合
 
-- [Java 学习路线](https://doc.code-nav.cn/roadmap/java): Java 学习路线一条龙版 by 鱼皮
+- [Java 学习路线](https://github.com/liyupi/code-roadmap/blob/main/docs/roadmap/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md): Java 学习路线一条龙版 by 鱼皮
 - [awesome-java](https://github.com/CodingDocs/awesome-java): Java 开源项目集合
 - [awesome-java-cn](https://github.com/jobbole/awesome-java-cn): Java 资源大全中文版，包括开发库、开发工具、网站、博客、微信、微博等，由伯乐在线持续更新。
 - [awesome-java](https://github.com/akullpp/awesome-java): Java 编程语言的出色框架、库和软件的精选列表
